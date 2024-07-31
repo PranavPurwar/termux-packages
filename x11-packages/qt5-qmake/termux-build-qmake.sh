@@ -1,4 +1,4 @@
-#!/data/data/com.icst.android.appstudio/files/usr/bin/bash
+#!/data/data/org.cosmicide/files/usr/bin/bash
 ##
 ##  A script for building qmake on device.
 ##  Use in Termux only !
@@ -9,7 +9,7 @@
 
 set -e
 
-TERMUX_PREFIX=/data/data/com.icst.android.appstudio/files/usr
+TERMUX_PREFIX=/data/data/org.cosmicide/files/usr
 
 if [ $(uname -o) != Android ]; then
     echo "This script should be run in Termux !"

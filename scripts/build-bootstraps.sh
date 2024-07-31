@@ -57,7 +57,7 @@ done
 
 # Build deb files for package and its dependencies deb from source for arch
 build_package() {
-	
+
 	local return_value
 
 	local package_arch="$1"
@@ -293,7 +293,7 @@ Available command_options:
 
 
 The package name/prefix that the bootstrap is built for is defined by
-TERMUX_APP_PACKAGE in 'scrips/properties.sh'. It defaults to 'com.icst.android.appstudio'.
+TERMUX_APP_PACKAGE in 'scrips/properties.sh'. It defaults to 'org.cosmicide'.
 If package name is changed, make sure to run
 `./scripts/run-docker.sh ./clean.sh` or pass '-f' to force rebuild of packages.
 

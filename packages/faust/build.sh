@@ -77,7 +77,7 @@ termux_step_post_make_install() {
 
 	# We need to replace all instance of "/usr" with $TERMUX_PREFIX but we can't do it
 	# in one go since $TERMUX_PREFIX also contain "/usr" so we risk doubling the prefix:
-	# "/data/data/com.icst.android.appstudio/files/data/data/com.icst.android.appstudio/files/usr"
+	# "/data/data/org.cosmicide/files/data/data/org.cosmicide/files/usr"
 
 	sed -i "s@$TERMUX_PREFIX@\$TERMUX_PREFIX@g" $faustscripts
 	sed -i "s@/usr/local@\$TERMUX_PREFIX@g" $faustscripts

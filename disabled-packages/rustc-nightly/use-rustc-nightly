@@ -1,2 +1,2 @@
-#!/data/data/com.icst.android.appstudio/files/usr/bin/sh
-export PATH=/data/data/com.icst.android.appstudio/files/usr/opt/rustc-nightly/bin:$PATH
+#!/data/data/org.cosmicide/files/usr/bin/sh
+export PATH=/data/data/org.cosmicide/files/usr/opt/rustc-nightly/bin:$PATH

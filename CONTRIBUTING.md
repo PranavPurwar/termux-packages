@@ -263,7 +263,7 @@ request with new package. Pay attention to things listed below.
    equivalents. Termux installation prefix is
 
    ```
-   /data/data/com.icst.android.appstudio/files/usr
+   /data/data/org.cosmicide/files/usr
    ```
 
    and can be considered as virtual rootfs.
@@ -271,7 +271,7 @@ request with new package. Pay attention to things listed below.
    Home directory is stored outside of prefix:
 
    ```
-   /data/data/com.icst.android.appstudio/files/home
+   /data/data/org.cosmicide/files/home
    ```
 
    Don't hardcode home and prefix, use shortcuts `@TERMUX_HOME@` and

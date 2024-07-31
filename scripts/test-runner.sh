@@ -1,4 +1,4 @@
-#!/data/data/com.icst.android.appstudio/files/usr/bin/bash
+#!/data/data/org.cosmicide/files/usr/bin/bash
 
 if [ $# != 1 ]; then
 	echo "Specify package to run tests for as only argument"
